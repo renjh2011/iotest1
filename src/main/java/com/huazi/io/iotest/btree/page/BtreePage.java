@@ -1,7 +1,6 @@
 package com.huazi.io.iotest.btree.page;
 
 import com.huazi.io.iotest.btree.header.FileHeader;
-import com.huazi.io.iotest.btree.header.PageHeader;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

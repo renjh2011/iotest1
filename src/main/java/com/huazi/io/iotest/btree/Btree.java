@@ -97,8 +97,8 @@ public class Btree {
         rootNode.addValue(key,ptr);
     }
 
-    public long find(int i) throws IOException {
-        return rootNode.find(i);
+    public long find(long key) throws IOException {
+        return rootNode.find(key);
     }
 
     public final class BTreeNode implements Comparable<BTreeNode> {
