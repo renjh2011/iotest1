@@ -4,7 +4,7 @@ public final class BTreeRootInfo {
 
         private final long page;
 
-        private BTreeRootInfo(long page) {
+        public BTreeRootInfo(long page) {
             this.page = page;
         }
 
