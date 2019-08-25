@@ -1,3 +1,4 @@
+/*
 package com.huazi.io.iotest;
 
 import com.huazi.io.iotest.io.DataFileHeader;
@@ -37,3 +38,4 @@ public class IOTest {
         pageHeader.read(fileHeader.getTotalPage()-1);
     }
 }
+*/
